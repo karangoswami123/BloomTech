@@ -11,7 +11,10 @@ import DiseaseDetection from "./pages/DiseaseDetection";
 import MarketPrices from "./pages/MarketPrices";
 import AIAssistant from "./pages/AIAssistant";
 import NotFound from "./pages/NotFound";
-
+import { Store } from "lucide-react";
+import Stores from "./pages/Stores";
+import Inventory from "./pages/Inventory";
+import RevenueTracker from "./pages/RevenueTracker";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -29,6 +32,8 @@ const App = () => (
             <Route path="/disease-detection" element={<DiseaseDetection />} />
             <Route path="/market-prices" element={<MarketPrices />} />
             <Route path="/ai-assistant" element={<AIAssistant />} />
+            <Route path="/revenuetracker" element={<RevenueTracker />} />
+            <Route path="/inventory" element={<Inventory/>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

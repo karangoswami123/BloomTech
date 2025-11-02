@@ -15,6 +15,13 @@ const translations: Translations = {
   diseaseDetection: { en: 'Disease Detection', hi: 'रोग का पता लगाना', mr: 'रोग शोध', gu: 'રોગ શોધ' },
   marketPrices: { en: 'Market Prices', hi: 'बाज़ार कीमतें', mr: 'बाजार किंमती', gu: 'બજાર ભાવ' },
   aiAssistant: { en: 'AI Assistant', hi: 'AI सहायक', mr: 'AI सहाय्यक', gu: 'AI સહાયક' },
+  store: { 
+  en: 'Store', 
+  hi: 'दुकान', 
+  mr: 'दुकान', 
+  gu: 'દુકાન' 
+},
+
   logout: { en: 'Logout', hi: 'लॉगआउट', mr: 'लॉगआउट', gu: 'લોગઆઉટ' },
   profile: { en: 'Profile', hi: 'प्रोफ़ाइल', mr: 'प्रोफाइल', gu: 'પ્રોફાઇલ' },
   english: { en: 'English', hi: 'अंग्रेज़ी', mr: 'इंग्रजी', gu: 'અંગ્રેજી' },
